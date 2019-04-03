@@ -11,3 +11,13 @@ Let a computer decide whether a liquid is beer or wine
 - Solution:
   - beer_wine_solved.ipynb
   - filtered.csv
+  
+## Install instructions:
+Download anaconda with following code: (this is a package manager for datascience & will install all tools)
+```bash
+sudo apt-get update
+sudo apt-get install curl
+cd /tmp
+curl -O https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+sudo chmod +x Anaconda3-5.0.1-Linux-x86_64.sh && ./Anaconda3-5.0.1-Linux-x86_64.sh
+```
